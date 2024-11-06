@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import HomePageLayout from "../layout/Layout";
+import 'animate.css';
+
 
 export const poppins = Poppins({
   subsets: ["latin"], // Choose subsets as needed
@@ -21,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        {children}
+        <HomePageLayout>{children}</HomePageLayout>
       </body>
     </html>
   );
