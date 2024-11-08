@@ -37,7 +37,7 @@ const Services = () => {
               <div
                 className="img"
                 style={{
-                  backgroundImage: "url(images/course-1.jpg)",
+                  backgroundImage: "url(images/webinar.jpg)",
                 }}
               ></div>
               <div className="text pt-4">
@@ -57,7 +57,7 @@ const Services = () => {
               <div
                 className="img"
                 style={{
-                  backgroundImage: "url(images/course-2.jpg)",
+                  backgroundImage: "url(images/counselling.jpg)",
                 }}
               ></div>
               <div className="text pt-4">
@@ -75,7 +75,7 @@ const Services = () => {
               <div
                 className="img"
                 style={{
-                  backgroundImage: "url(images/course-3.jpg)",
+                  backgroundImage: "url(images/sop&lor.jpeg)",
                 }}
               ></div>
               <div className="text pt-4">
@@ -92,7 +92,7 @@ const Services = () => {
               <div
                 className="img"
                 style={{
-                  backgroundImage: "url(images/course-4.jpg)",
+                  backgroundImage: "url(images/scholarship.jpg)",
                 }}
               ></div>
               <div className="text pt-4">
@@ -107,7 +107,7 @@ const Services = () => {
               <div
                 className="img"
                 style={{
-                  backgroundImage: "url(images/course-5.jpg)",
+                  backgroundImage: "url(images/loan.webp)",
                 }}
               ></div>
               <div className="text pt-4">
@@ -125,7 +125,7 @@ const Services = () => {
               <div
                 className="img"
                 style={{
-                  backgroundImage: "url(images/course-6.jpg)",
+                  backgroundImage: "url(images/visa.webp)",
                 }}
               ></div>
               <div className="text pt-4">
@@ -145,7 +145,7 @@ const Services = () => {
               <div
                 className="img"
                 style={{
-                  backgroundImage: "url(images/course-7.jpg)",
+                  backgroundImage: "url(images/bookingticket.avif)",
                 }}
               ></div>
               <div className="text pt-4">
@@ -162,7 +162,7 @@ const Services = () => {
               <div
                 className="img"
                 style={{
-                  backgroundImage: "url(images/course-8.jpg)",
+                  backgroundImage: "url(images/celebrate.jpg)",
                 }}
               ></div>
               <div className="text pt-4">
@@ -180,7 +180,7 @@ const Services = () => {
               <div
                 className="img"
                 style={{
-                  backgroundImage: "url(images/course-8.jpg)",
+                  backgroundImage: "url(images/guidance.jpg)",
                 }}
               ></div>
               <div className="text pt-4">
@@ -198,7 +198,7 @@ const Services = () => {
               <div
                 className="img"
                 style={{
-                  backgroundImage: "url(images/course-8.jpg)",
+                  backgroundImage: "url(images/accommodation.avif)",
                 }}
               ></div>
               <div className="text pt-4">
@@ -218,7 +218,7 @@ const Services = () => {
               <div
                 className="img"
                 style={{
-                  backgroundImage: "url(images/course-8.jpg)",
+                  backgroundImage: "url(images/24:7.jpg)",
                 }}
               ></div>
               <div className="text pt-4">
@@ -241,7 +241,7 @@ const Services = () => {
             <div
               className="img"
               style={{
-                backgroundImage: "url(images/course-8.jpg)",
+                backgroundImage: "url(images/ielts.webp)",
               }}
             ></div>
             <div className="text pt-4">
