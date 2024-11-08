@@ -1,5 +1,4 @@
 import React from 'react'
-import Founders from '../founders/Founders'
 import Link from 'next/link'
 
 const Blogs = () => {
