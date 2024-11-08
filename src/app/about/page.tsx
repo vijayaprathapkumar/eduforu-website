@@ -28,10 +28,11 @@ const page = () => {
               }}></div>
             </div>
             <div className="col-md-7 wrap-about py-5 pr-md-4">
-              <h2 className="mb-4">Fox University Stablished Since 1960</h2>
-              <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word.</p>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-              <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their</p>
+              <h2 className="mb-4">Your Pathway to Global Education Success</h2>
+              <p>At EduForU, we are dedicated to guiding you through every step of your international education journey. Founded in 2023, our consultancy is here to transform your dreams into reality. We are not just about giving advice—we are your trusted partner in making your overseas academic goals achievable.</p>
+              <p>From selecting the right course and preparing for exams to securing the necessary visas, we handle all aspects of your journey. Our team offers expert support in everything from UCAS interviews and accommodation arrangements to job searches and document processing. Plus, we provide crucial financial assistance to ensure your studies abroad are both affordable and seamless.</p>
+              <p>Whether you&apos;re looking for advice on universities or need guidance through the complex paperwork and application process, EduForU is your one-stop solution for navigating the world of international education. Let us help you pave the way to an enriching, successful future abroad.</p>
+              <p>With EduForU, you’re not just applying to universities—you’re embarking on a global adventure. Let us guide you to success, one step at a time!</p>
             </div>
           </div>
         </div>

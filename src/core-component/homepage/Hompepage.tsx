@@ -1,21 +1,21 @@
 import React from 'react'
-import Header from '../../layout/header/Header'
 import Aboutus from '../about-us/Aboutus'
 import Banner from '../banner/Banner'
 import Contactus from '../contact-us/Contactus'
-import Footer from '../../layout/footer/Footer'
 import Founders from '../founders/Founders'
 import Offer from '../offer/Offer'
+import Countries from '../countries'
 
 const Hompepage = () => {
   return (
-    <div>
+    <>
       <Banner />
+      <Countries />
       <Offer />
       <Aboutus />
       <Founders />
       <Contactus />
-    </div>
+    </>
   )
 }
 
