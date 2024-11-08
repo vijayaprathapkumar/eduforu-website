@@ -23,25 +23,25 @@ const page = () => {
                         <div className="col-md-3 d-flex">
                             <div className="bg-light align-self-stretch box p-4 text-center">
                                 <h3 className="mb-4">Address</h3>
-                                <p>198 West 21th Street, Suite 721 New York NY 10016</p>
+                                <p>Avadi, chennai</p>
                             </div>
                         </div>
                         <div className="col-md-3 d-flex">
                             <div className="bg-light align-self-stretch box p-4 text-center">
                                 <h3 className="mb-4">Contact Number</h3>
-                                <p><Link href="tel://1234567920">+ 1235 2355 98</Link></p>
+                                <p><Link href="tel://1234567920">+91 8778283728</Link></p>
                             </div>
                         </div>
                         <div className="col-md-3 d-flex">
                             <div className="bg-light align-self-stretch box p-4 text-center">
                                 <h3 className="mb-4">Email Address</h3>
-                                <p><Link href="mailto:info@yoursite.com">info@yoursite.com</Link></p>
+                                <p><Link href="mailto:info@yoursite.com">info.chennai@eduforu.in</Link></p>
                             </div>
                         </div>
                         <div className="col-md-3 d-flex">
                             <div className="bg-light align-self-stretch box p-4 text-center">
                                 <h3 className="mb-4">Website</h3>
-                                <p><Link href="#">yoursite.com</Link></p>
+                                <p><Link href="#">https://eduforu.in/</Link></p>
                             </div>
                         </div>
                     </div>
