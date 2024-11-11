@@ -7,7 +7,7 @@ const Services = () => {
       <section
         className="hero-wrap hero-wrap-2"
         style={{
-          backgroundImage: "url(images/bg_1.jpg)",
+          backgroundImage: "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvc5NEu2ITR-nGnSARHEBQJ6eRoop-Zh50EA&s)",
         }}
       >
         <div className="overlay"></div>
