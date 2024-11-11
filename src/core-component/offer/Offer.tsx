@@ -13,7 +13,7 @@ const Offer = () => {
               <div
                 className="img"
                 style={{
-                  backgroundImage: "url(images/about.jpg)",
+                  backgroundImage: "url(https://img.freepik.com/free-photo/front-view-stacked-books-graduation-cap-ladders-education-day_23-2149241014.jpg)",
                 }}
               ></div>
             </div>

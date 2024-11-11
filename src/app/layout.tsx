@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import "../core-component/custom-styles.css"
 import HomePageLayout from "../layout/Layout";
+import "swiper/css";
+import 'swiper/css/effect-fade';
+import 'swiper/css/autoplay';
 
 export const poppins = Poppins({
   subsets: ["latin"], // Choose subsets as needed
