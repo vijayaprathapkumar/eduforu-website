@@ -1,6 +1,6 @@
 import StudyDestination from '@/core-component/study-destination/StudyDestination'
 import React from 'react'
 
-const page = () => <StudyDestination />
+const Destination = () => <StudyDestination />
 
-export default page
+export default Destination

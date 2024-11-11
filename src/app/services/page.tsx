@@ -1,6 +1,6 @@
 import Services from "@/core-component/services/Services";
 import React from "react";
 
-const page = () => <Services />;
+const Servcie = () => <Services />;
 
-export default page;
+export default Servcie;

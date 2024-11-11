@@ -6,39 +6,45 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, A11y } from "swiper/modules";
 // import Swiper styles
 import "swiper/css/pagination";
+import Link from "next/link";
 
 const CountriesMap = [
   {
     name: "UK",
     image: "/images/uk.webp",
+    link : "/uk"
   },
   {
     name: "Canada",
     image: "/images/canada.webp",
+    link : "/canada"
   },
   {
     name: "Ireland",
     image: "/images/ireland.webp",
+    link : "/ireland"
   },
   {
     name: "Australia",
     image: "/images/australia.webp",
+    link : "/australia"
   },
 ];
 
 const Countries = () => {
   const renderCountries = () => {
     return CountriesMap.map((country, index) => {
+      const { image,name,link } = country;
       return (
         <SwiperSlide key={index}>
-          <div className="text">
+          <Link className="text" href={link}>
             <Image
-              src={country.image}
-              alt={country.name}
+              src={image}
+              alt={name}
               width={100}
               height={100}
             />
-          </div>
+          </Link>
         </SwiperSlide>
       );
     });

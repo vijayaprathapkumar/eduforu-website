@@ -2,7 +2,7 @@ import Aboutus from '@/core-component/about-us/Aboutus'
 import Link from 'next/link'
 import React from 'react'
 
-const page = () => {
+const AboutUS = () => {
   return (
     <div>
       <section className="hero-wrap hero-wrap-2" style={{
@@ -42,4 +42,4 @@ const page = () => {
   )
 }
 
-export default page
+export default AboutUS
