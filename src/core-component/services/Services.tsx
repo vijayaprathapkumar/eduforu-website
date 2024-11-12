@@ -218,7 +218,7 @@ const Services = () => {
               <div
                 className="img"
                 style={{
-                  backgroundImage: "url(images/24:7.jpg)",
+                  backgroundImage: "url(images/24service.jpg)",
                 }}
               ></div>
               <div className="text pt-4">
@@ -242,6 +242,7 @@ const Services = () => {
               className="img"
               style={{
                 backgroundImage: "url(images/ielts.webp)",
+                backgroundSize: "contain",
               }}
             ></div>
             <div className="text pt-4">
