@@ -12,37 +12,38 @@ const CountriesMap = [
   {
     name: "UK",
     image: "/images/uk.webp",
-    link : "/uk"
-  },
-  {
-    name: "Canada",
-    image: "/images/canada.webp",
-    link : "/canada"
+    link: "/uk"
   },
   {
     name: "Ireland",
     image: "/images/ireland.webp",
-    link : "/ireland"
+    link: "/ireland"
+  },
+  {
+    name: "Canada",
+    image: "/images/canada.webp",
+    link: "/canada"
   },
   {
     name: "Australia",
     image: "/images/australia.webp",
-    link : "/australia"
+    link: "/australia"
   },
 ];
 
 const Countries = () => {
   const renderCountries = () => {
     return CountriesMap.map((country, index) => {
-      const { image,name,link } = country;
+      const { image, name, link } = country;
       return (
         <SwiperSlide key={index}>
           <Link className="text" href={link}>
             <Image
               src={image}
               alt={name}
-              width={100}
-              height={100}
+              width={200}
+              height={150}
+              className="image-border"
             />
           </Link>
         </SwiperSlide>

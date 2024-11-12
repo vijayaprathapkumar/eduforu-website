@@ -29,7 +29,7 @@ const StudyDestination = () => {
           <h1 className={styles.heading}>{bannerTile}</h1>
           <p className={styles.breadcrumbs}>
             <span>
-              <Link href="#" className={styles.breadcrumbs}>
+              <Link href="/home" className={styles.breadcrumbs}>
                 HOME <i className="ion-ios-arrow-forward"></i>
               </Link>
             </span>{" "}

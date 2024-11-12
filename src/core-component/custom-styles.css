@@ -1,13 +1,19 @@
-.custome-countries-slider{
-    height: 200px;
-    text-align: center;
-  }
+.custome-countries-slider {
+  height: 200px;
+  text-align: center;
+}
 
-  .swiper-pagination {
-    bottom: 10px; /* Adjust distance from the bottom */
-  }
-  
-  .swiper-pagination-bullet {
-    background-color: #ffffff !important; /* Customize bullet color */
-    opacity: 0.7;
-  }
+.swiper-pagination {
+  bottom: 10px;
+  /* Adjust distance from the bottom */
+}
+
+.swiper-pagination-bullet {
+  background-color: #ffffff !important;
+  /* Customize bullet color */
+  opacity: 0.7;
+}
+
+.image-border {
+  border-radius: 40px;
+}
