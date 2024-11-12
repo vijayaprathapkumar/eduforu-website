@@ -1,8 +1,68 @@
-'use client';
+/* eslint-disable @typescript-eslint/no-explicit-any */
+"use client";
 import AnimatedItem from "@/ui-component/AnimatedItem";
-import React from "react";
+import React, { useState } from "react";
 
 const Contactus = () => {
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    course: "",
+    email: "",
+    message: "",
+  });
+
+  const handleChange = (e: any) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = async (e: any) => {
+    e.preventDefault();
+
+    // Example API call logic (you can replace with your endpoint)
+    try {
+      const response = await fetch("/api/send-email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          to: formData.email,
+          subject:  'Appointment Request',
+          message: `
+            First Name: ${formData.firstName}
+            Last Name: ${formData.lastName}
+            Course: ${formData.course}
+            Phone: ${formData.email}
+            Message: ${formData.message}
+          `,
+        }),
+      });
+
+      const result = await response.json();
+      if (result.success) {
+        alert("Form submitted successfully!");
+        // Optionally reset form
+        setFormData({
+          firstName: "",
+          lastName: "",
+          course: "",
+          email: "",
+          message: "",
+        });
+      } else {
+        alert("Error submitting form: " + result.error);
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      alert("Error submitting form.");
+    }
+  };
+
   return (
     <div>
       <section
@@ -28,13 +88,16 @@ const Contactus = () => {
                     texts.
                   </p>
                 </div>
-                <form action="#" className="appointment-form ">
+                <form onSubmit={handleSubmit} className="appointment-form">
                   <div className="d-md-flex">
                     <div className="form-group">
                       <input
                         type="text"
                         className="form-control"
                         placeholder="First Name"
+                        name="firstName"
+                        value={formData.firstName}
+                        onChange={handleChange}
                       />
                     </div>
                     <div className="form-group ml-md-4">
@@ -42,6 +105,9 @@ const Contactus = () => {
                         type="text"
                         className="form-control"
                         placeholder="Last Name"
+                        name="lastName"
+                        value={formData.lastName}
+                        onChange={handleChange}
                       />
                     </div>
                   </div>
@@ -52,13 +118,22 @@ const Contactus = () => {
                           <div className="icon">
                             <span className="ion-ios-arrow-down"></span>
                           </div>
-                          <select name="" id="" className="form-control">
+                          <select
+                            name="course"
+                            className="form-control"
+                            value={formData.course}
+                            onChange={handleChange}
+                          >
                             <option value="">Select Your Course</option>
-                            <option value="">Art Lesson</option>
-                            <option value="">Language Lesson</option>
-                            <option value="">Music Lesson</option>
-                            <option value="">Sports</option>
-                            <option value="">Other Services</option>
+                            <option value="Art Lesson">Art Lesson</option>
+                            <option value="Language Lesson">
+                              Language Lesson
+                            </option>
+                            <option value="Music Lesson">Music Lesson</option>
+                            <option value="Sports">Sports</option>
+                            <option value="Other Services">
+                              Other Services
+                            </option>
                           </select>
                         </div>
                       </div>
@@ -67,19 +142,23 @@ const Contactus = () => {
                       <input
                         type="text"
                         className="form-control"
-                        placeholder="Phone"
+                        placeholder="Email"
+                        name="email"
+                        value={formData.email}
+                        onChange={handleChange}
                       />
                     </div>
                   </div>
                   <div className="d-md-flex">
                     <div className="form-group">
                       <textarea
-                        name=""
-                        id=""
                         cols={30}
                         rows={2}
                         className="form-control"
                         placeholder="Message"
+                        name="message"
+                        value={formData.message}
+                        onChange={handleChange}
                       ></textarea>
                     </div>
                     <div className="form-group ml-md-4">
