@@ -15,7 +15,7 @@ const Banner = () => {
             className="slider-item"
             style={{
               backgroundImage:
-                "url(https://png.pngtree.com/thumb_back/fh260/background/20220521/pngtree-global-education-hand-globe-cap-plane-3d-concept-photo-image_46444376.jpg)",
+                "url(images/xx2.jpg)",
             }}
           >
             <div className="overlay"></div>
@@ -26,7 +26,7 @@ const Banner = () => {
               >
                 <AnimatedItem className="col-md-6 " animateEffect="fadeInUp">
                   <h1 className="mb-4">Study Abroad with Confidence</h1>
-                  <p>
+                  <p className="banner_desc">
                     EduForU provides expert consultation, comprehensive exam
                     preparation, and visa support, helping you transition
                     effortlessly into your global academic experience.
@@ -49,7 +49,7 @@ const Banner = () => {
             className="slider-item"
             style={{
               backgroundImage:
-                "url(https://media.istockphoto.com/id/1491862404/photo/graduation-cap-with-earth-globe-concept-of-global-business-study-abroad-educational-back-to.jpg?s=612x612&w=0&k=20&c=aW0LM993kKv9emwG_p72-sEExendL6sLb2Sqn8YTNIw=)",
+                "url(images/xx9.jpg)",
             }}
           >
             <div className="overlay"></div>
@@ -60,7 +60,7 @@ const Banner = () => {
               >
                 <AnimatedItem className="col-md-6 " animateEffect="fadeInUp">
                   <h1 className="mb-4">Study Abroad with Confidence</h1>
-                  <p>
+                  <p className="banner_desc">
                     EduForU provides expert consultation, comprehensive exam
                     preparation, and visa support, helping you transition
                     effortlessly into your global academic experience.
