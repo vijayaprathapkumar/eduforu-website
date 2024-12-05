@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -14,20 +15,20 @@ const Footer = () => {
                     <li>
                       <span className="icon icon-map-marker"></span>
                       <span className="text">
-                      Avadi, chennai
+                        Avadi, chennai
                       </span>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link href="tel:+918778283728">
                         <span className="icon icon-phone"></span>
                         <span className="text">+91 8778283728</span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link href="#">
                         <span className="icon icon-envelope"></span>
                         <span className="text">info.chennai@eduforu.in</span>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -37,65 +38,65 @@ const Footer = () => {
               <div className="ftco-footer-widget mb-5">
                 <h2 className="ftco-heading-2">Recent Blog</h2>
                 <div className="block-21 mb-4 d-flex">
-                  <a
+                  <Link href='#'
                     className="blog-img mr-4"
                     style={{
                       backgroundImage: "url(images/image_1.jpg)",
                     }}
-                  ></a>
+                  ></Link>
                   <div className="text">
                     <h3 className="heading">
-                      <a href="#">
+                      <Link href="#">
                         Even the all-powerful Pointing has no control about
-                      </a>
+                      </Link>
                     </h3>
                     <div className="meta">
                       <div>
-                        <a href="#">
+                        <Link href="#">
                           <span className="icon-calendar"></span> June 27, 2019
-                        </a>
+                        </Link>
                       </div>
                       <div>
-                        <a href="#">
+                        <Link href="#">
                           <span className="icon-person"></span> Admin
-                        </a>
+                        </Link>
                       </div>
                       <div>
-                        <a href="#">
+                        <Link href="#">
                           <span className="icon-chat"></span> 19
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="block-21 mb-5 d-flex">
-                  <a
+                  <Link href='#'
                     className="blog-img mr-4"
                     style={{
                       backgroundImage: "url(images/image_2.jpg)",
                     }}
-                  ></a>
+                  ></Link>
                   <div className="text">
                     <h3 className="heading">
-                      <a href="#">
+                      <Link href="#">
                         Even the all-powerful Pointing has no control about
-                      </a>
+                      </Link>
                     </h3>
                     <div className="meta">
                       <div>
-                        <a href="#">
+                        <Link href="#">
                           <span className="icon-calendar"></span> June 27, 2019
-                        </a>
+                        </Link>
                       </div>
                       <div>
-                        <a href="#">
+                        <Link href="#">
                           <span className="icon-person"></span> Admin
-                        </a>
+                        </Link>
                       </div>
                       <div>
-                        <a href="#">
+                        <Link href="#">
                           <span className="icon-chat"></span> 19
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -107,28 +108,28 @@ const Footer = () => {
                 <h2 className="ftco-heading-2">Links</h2>
                 <ul className="list-unstyled">
                   <li>
-                    <a href="#">
+                    <Link href="#">
                       <span className="ion-ios-arrow-round-forward mr-2"></span>
                       Home
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
+                    <Link href="#">
                       <span className="ion-ios-arrow-round-forward mr-2"></span>
                       About
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
+                    <Link href="#">
                       <span className="ion-ios-arrow-round-forward mr-2"></span>
                       Services
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
+                    <Link href="#">
                       <span className="ion-ios-arrow-round-forward mr-2"></span>
                       Contact
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -155,19 +156,19 @@ const Footer = () => {
                 <h2 className="ftco-heading-2 mb-0">Connect With Us</h2>
                 <ul className="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
                   <li className="">
-                    <a href="#">
+                    <Link href="#">
                       <span className="icon-twitter"></span>
-                    </a>
+                    </Link>
                   </li>
                   <li className="">
-                    <a href="#">
+                    <Link href="#">
                       <span className="icon-facebook"></span>
-                    </a>
+                    </Link>
                   </li>
                   <li className="">
-                    <a href="#">
+                    <Link href="#">
                       <span className="icon-instagram"></span>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -177,7 +178,7 @@ const Footer = () => {
             <div className="col-md-12 text-center">
               <p>
                 Copyright &copy;
-               {new Date().getFullYear()} All
+                {new Date().getFullYear()} All
                 rights reserved
               </p>
             </div>

@@ -17,3 +17,13 @@
 .image-border {
   border-radius: 40px;
 }
+
+.call-link {
+  color: #000000b3;
+
+}
+
+.call-link:hover {
+  color: #000000b3;
+
+}
