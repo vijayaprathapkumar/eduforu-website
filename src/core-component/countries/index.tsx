@@ -7,29 +7,7 @@ import { Pagination, A11y } from "swiper/modules";
 // import Swiper styles
 import "swiper/css/pagination";
 import Link from "next/link";
-
-const CountriesMap = [
-  {
-    name: "UK",
-    image: "/images/uk.webp",
-    link: "/uk"
-  },
-  {
-    name: "Ireland",
-    image: "/images/ireland.webp",
-    link: "/ireland"
-  },
-  {
-    name: "Canada",
-    image: "/images/canada.webp",
-    link: "/canada"
-  },
-  {
-    name: "Australia",
-    image: "/images/australia.webp",
-    link: "/australia"
-  },
-];
+import { CountriesMap } from "./config/countries";
 
 const Countries = () => {
   const renderCountries = () => {

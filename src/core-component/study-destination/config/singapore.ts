@@ -1,0 +1,58 @@
+export const SingaporeDetails = {
+  bannerTile: "STUDY IN SINGAPORE",
+  title: "Why Choose Singapore As Your Study Destination in 2025",
+  about: [
+    "World-Class Education: Home to top-ranked institutions like National University of Singapore (NUS) and Nanyang Technological University (NTU).",
+    "English-Speaking Environment: English is widely used, facilitating easy communication and learning.",
+    "Global Hub: A key location for technology and global financial sectors, offering excellent networking opportunities.",
+    "Multicultural Society: Experience a diverse, harmonious blend of cultures, religions, and ethnicities.",
+    "Safety and Stability: Known for low crime rates and political stability, providing a secure environment for international students.",
+    "Career Opportunities: Presence of numerous multinational companies and a thriving startup ecosystem.",
+    "Innovation Focus: Strong government investment in research and innovation, with grants available for students in specific fields.",
+    "Cost-Effective: Lower education costs compared to countries like the US, UK, and Australia.",
+    "High Quality of Life: Clean streets, efficient public transport, and vibrant culture.",
+    "Strategic Location: Ideal base for exploring Southeast Asia.",
+    "Advanced Infrastructure: State-of-the-art facilities in universities and across the city-state.",
+    "Work Opportunities: Options to work part-time during studies and full-time during breaks.",
+  ],
+  univercityTitle: "Top Universities in Singapore for 2025",
+  UKUniversity: [
+    {
+      image: "/images/Nus.png",
+      link: "National University of Singapore (NUS)",
+    },
+    {
+      image: "/images/Ntu.webp",
+      link: "Nanyang Technological University (NTU)",
+    },
+    { image: "/images/Smu.svg", link: "Singapore Management University (SMU)" },
+    {
+      image: "/images/Sutd.jpg",
+      link: "Singapore University of Technology and Design (SUTD)",
+    },
+    {
+      image: "/images/Sit.png",
+      link: "Singapore Institute of Technology (SIT)",
+    },
+    {
+      image: "/images/Suss.webp",
+      link: "Singapore University of Social Sciences (SUSS)",
+    },
+    { image: "/images/Yale.png", link: "Yale-NUS College" },
+    { image: "/images/Insead.webp", link: "INSEAD (Singapore campus)" },
+    { image: "/images/James.jpg", link: "James Cook University Singapore" },
+    { image: "/images/Spj.webp", link: "SP Jain School of Global Management" },
+  ],
+  coursesTitle: "Top Courses to Study in Singapore in 2025",
+  topCourses: [
+    "Business Administration",
+    "Computer Science and Information Technology",
+    "Engineering (Civil, Electrical, Mechanical, Bioengineering)",
+    "Medicine and Life Sciences",
+    "Finance and Economics",
+    "Artificial Intelligence and Robotics",
+    "Environmental Studies and Sustainability",
+    "Hospitality and Tourism Management",
+    "Digital Media and Design",
+  ],
+};

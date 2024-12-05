@@ -20,7 +20,7 @@ export const IrelandDetails = {
   ],
   univercityTitle: "TOP UNIVERSITIES IN IRELAND",
   UKUniversity: [
-    { image: "/images/Dublin.png", link: "Trinity College Dublin" },
+    { image: "/images/Dublin.jpg", link: "Trinity College Dublin" },
     { image: "/images/DCU.png", link: "Dublin City University" },
     { image: "/images/UCD.jpg", link: " University College Dublin" },
     { image: "/images/NCI.jpg", link: " National College of Ireland" },
