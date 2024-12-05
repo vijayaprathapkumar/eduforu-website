@@ -30,14 +30,16 @@ const Header = () => {
                                         <span>Email</span>
                                         <span>info.chennai@eduforu.in</span>
                                     </div>
-                                </div>
+                                </div> 
                                 <div className="col-md d-flex topper align-items-center align-items-stretch py-md-4">
                                     <div className="icon d-flex justify-content-center align-items-center">
                                         <span className="icon-phone2"></span>
                                     </div>
                                     <div className="text">
                                         <span>Call</span>
-                                        <span>Call Us: +91 8778283728</span>
+                                        <Link href="tel:+918778283728" className='call-link'>
+                                            Call Us: +91 8778283728
+                                        </Link>
                                     </div>
                                 </div>
                                 <div className="col-md topper d-flex align-items-center justify-content-end">
