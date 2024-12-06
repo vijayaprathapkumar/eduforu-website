@@ -16,7 +16,7 @@ export const CanadaDetails = {
   ],
   univercityTitle: "Top Universities In CANADA",
   UKUniversity: [
-    { image: "/images/Toronto.jpg", link: " University of Toronto" },
+    { image: "/images/Toronto.png", link: " University of Toronto" },
     { image: "/images/Columbia.png", link: "The University of British Columbia" },
     { image: "/images/Waterloo.png", link: "University of Waterloo" },
     { image: "/images/McMatster.png", link: "McMaster University" },

@@ -71,7 +71,7 @@
     margin-top: 100px;
 }
 
-.MainUniversity{
+.MainUniversity {
     display: flex;
     gap: 30px;
     margin-bottom: 30px;
@@ -85,7 +85,8 @@
     color: #4a4a4a;
     font-weight: 700;
 }
-.Course>li{
+
+.Course>li {
     font-size: 24px;
     font-family: "Marcellus SC", serif;
     font-weight: 600;
@@ -93,7 +94,36 @@
     margin-top: 30px;
 }
 
-@media(max-width: 850px) {
+@media (max-width: 600px) {
+    .destination {
+        width: 100%;
+    }
+
+    .heading {
+        font-size: 30px;
+    }
+
+    .breadcrumbs {
+        font-size: 14px;
+    }
+    .h2{
+        font-size: 25px;
+    }
+    .ul>li{
+        font-size: 14px;
+    }
+    .h3{
+        font-size: 28px;
+    }
+    .MainUniversity>p{
+        font-size: 14px;
+    }
+    .Course>li{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 850px) {
     .submain {
         flex-direction: column;
     }

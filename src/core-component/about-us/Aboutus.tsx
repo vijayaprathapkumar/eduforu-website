@@ -1,6 +1,7 @@
 "use client";
 import AnimatedItem from "@/ui-component/AnimatedItem";
 import React from "react";
+import { FaPlay } from "react-icons/fa";
 
 const Aboutus = () => {
   return (
@@ -26,7 +27,7 @@ const Aboutus = () => {
                   href="https://vimeo.com/45830194"
                   className="icon-video popup-vimeo d-flex justify-content-center align-items-center"
                 >
-                  <span className="ion-ios-play"></span>
+                  <span className="ion-ios-play"><FaPlay /></span>
                 </a>
               </div>
             </div>

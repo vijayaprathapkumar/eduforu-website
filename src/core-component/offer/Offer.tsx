@@ -2,6 +2,11 @@
 
 import AnimatedItem from "@/ui-component/AnimatedItem";
 import React from "react";
+import { BiSolidBookReader } from "react-icons/bi";
+import { FaBuilding } from "react-icons/fa";
+import { GiPassport } from "react-icons/gi";
+import { LuRefreshCw } from "react-icons/lu";
+import { PiClockUserBold, PiGraduationCapBold } from "react-icons/pi";
 
 const Offer = () => {
   return (
@@ -33,7 +38,7 @@ const Offer = () => {
                 <div className="col-lg-6">
                   <div className="services-2 d-flex">
                     <div className="icon mt-2 d-flex justify-content-center align-items-center">
-                      <span className="flaticon-security"></span>
+                      <span className="flaticon-security"><PiGraduationCapBold /></span>
                     </div>
                     <div className="text pl-3">
                       <h3>Personalized Course Selection</h3>
@@ -48,7 +53,7 @@ const Offer = () => {
                 <div className="col-lg-6">
                   <div className="services-2 d-flex">
                     <div className="icon mt-2 d-flex justify-content-center align-items-center">
-                      <span className="flaticon-reading"></span>
+                      <span className="flaticon-reading"><BiSolidBookReader /></span>
                     </div>
                     <div className="text pl-3">
                       <h3>Comprehensive Exam Preparation</h3>
@@ -63,7 +68,7 @@ const Offer = () => {
                 <div className="col-lg-6">
                   <div className="services-2 d-flex">
                     <div className="icon mt-2 d-flex justify-content-center align-items-center">
-                      <span className="flaticon-diploma"></span>
+                      <span className="flaticon-diploma"><GiPassport /></span>
                     </div>
                     <div className="text pl-3">
                       <h3>Visa Processing Assistance</h3>
@@ -78,7 +83,7 @@ const Offer = () => {
                 <div className="col-lg-6">
                   <div className="services-2 d-flex">
                     <div className="icon mt-2 d-flex justify-content-center align-items-center">
-                      <span className="flaticon-education"></span>
+                      <span className="flaticon-education"><FaBuilding /></span>
                     </div>
                     <div className="text pl-3">
                       <h3>Accommodation Assistance</h3>
@@ -92,7 +97,7 @@ const Offer = () => {
                 <div className="col-lg-6">
                   <div className="services-2 d-flex">
                     <div className="icon mt-2 d-flex justify-content-center align-items-center">
-                      <span className="flaticon-jigsaw"></span>
+                      <span className="flaticon-jigsaw"><PiClockUserBold /></span>
                     </div>
                     <div className="text pl-3">
                       <h3>Part-Time Job Assistance</h3>
@@ -106,7 +111,7 @@ const Offer = () => {
                 <div className="col-lg-6">
                   <div className="services-2 d-flex">
                     <div className="icon mt-2 d-flex justify-content-center align-items-center">
-                      <span className="flaticon-kids"></span>
+                      <span className="flaticon-kids"><LuRefreshCw /></span>
                     </div>
                     <div className="text pl-3">
                       <h3>End-to-End Support</h3>

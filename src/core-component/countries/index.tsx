@@ -42,7 +42,7 @@ const Countries = () => {
               className="heading-section heading-section-white"
               animateEffect="fadeInUp"
             >
-              <h2 className="mb-5"> Click Your Destination To Know More</h2>
+              <h2 className="mb-5 country-head"> Click Your Destination To Know More</h2>
             </AnimatedItem>
             <AnimatedItem className="col-lg-12" animateEffect="fadeInUp">
               <Swiper
@@ -51,6 +51,17 @@ const Countries = () => {
                 className="custome-countries-slider"
                 slidesPerView={4}
                 pagination={{ clickable: true }}
+                breakpoints={{
+                  390: {
+                    slidesPerView: 1,
+                  },
+                  760: {
+                    slidesPerView: 2,
+                  },
+                  1024: {
+                    slidesPerView: 4,
+                  },
+                }}
               >
                 {renderCountries()}
               </Swiper>

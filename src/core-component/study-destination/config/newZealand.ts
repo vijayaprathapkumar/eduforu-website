@@ -31,11 +31,11 @@ export const NewZealandDetails = {
       link: "University of Canterbury",
     },
     {
-      image: "/images/Sit.png",
+      image: "/images/Massy.png",
       link: "Massey University",
     },
     {
-      image: "/images/Massy.png",
+      image: "/images/Waikato.jpg",
       link: "University of Waikato",
     },
     { image: "/images/Aut.jpg", link: "Auckland University of Technology (AUT)" },

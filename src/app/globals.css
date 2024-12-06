@@ -11865,7 +11865,7 @@ h5,
 
 @media (max-width: 991.98px) {
   .ftco-navbar-light {
-    background: #0d1128 !important;
+    background: #2A3855 !important;
     position: relative;
     top: 0;
     padding: 10px 15px;
@@ -13507,6 +13507,14 @@ textarea.form-control {
 .testimony-wrap .position {
   font-size: 14px;
   color: #fd5f00;
+}
+
+@media (max-width: 600px){
+   .heading-section.heading-section-white h2 {
+      font-size: 30px;
+      text-align: center;
+      padding: 0 5%;
+   }
 }
 
 @media (max-width: 767.98px) {

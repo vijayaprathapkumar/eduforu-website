@@ -1,5 +1,9 @@
 import Link from "next/link";
 import React from "react";
+import { FaTwitter, FaFacebookF, FaInstagram, FaPhone, FaUserAlt, FaArrowRight } from "react-icons/fa";
+import { IoMdMail } from "react-icons/io";
+import { IoChatboxEllipsesSharp, IoLocation } from "react-icons/io5";
+import { SlCalender } from "react-icons/sl";
 
 const Footer = () => {
   return (
@@ -13,20 +17,20 @@ const Footer = () => {
                 <div className="block-23 mb-3">
                   <ul>
                     <li>
-                      <span className="icon icon-map-marker"></span>
+                      <span className="icon icon-map-marker"><IoLocation /></span>
                       <span className="text">
                         Avadi, chennai
                       </span>
                     </li>
                     <li>
                       <Link href="tel:+918778283728">
-                        <span className="icon icon-phone"></span>
+                        <span className="icon icon-phone"><FaPhone /></span>
                         <span className="text">+91 8778283728</span>
                       </Link>
                     </li>
                     <li>
                       <Link href="#">
-                        <span className="icon icon-envelope"></span>
+                        <span className="icon icon-envelope"><IoMdMail /></span>
                         <span className="text">info.chennai@eduforu.in</span>
                       </Link>
                     </li>
@@ -53,17 +57,17 @@ const Footer = () => {
                     <div className="meta">
                       <div>
                         <Link href="#">
-                          <span className="icon-calendar"></span> June 27, 2019
+                          <span className="icon-calendar"><SlCalender /></span> June 27, 2019
                         </Link>
                       </div>
                       <div>
                         <Link href="#">
-                          <span className="icon-person"></span> Admin
+                          <span className="icon-person"><FaUserAlt /></span> Admin
                         </Link>
                       </div>
                       <div>
                         <Link href="#">
-                          <span className="icon-chat"></span> 19
+                          <span className="icon-chat"><IoChatboxEllipsesSharp /></span> 19
                         </Link>
                       </div>
                     </div>
@@ -85,17 +89,17 @@ const Footer = () => {
                     <div className="meta">
                       <div>
                         <Link href="#">
-                          <span className="icon-calendar"></span> June 27, 2019
+                          <span className="icon-calendar"><SlCalender /></span> June 27, 2019
                         </Link>
                       </div>
                       <div>
                         <Link href="#">
-                          <span className="icon-person"></span> Admin
+                          <span className="icon-person"><FaUserAlt /></span> Admin
                         </Link>
                       </div>
                       <div>
                         <Link href="#">
-                          <span className="icon-chat"></span> 19
+                          <span className="icon-chat"><IoChatboxEllipsesSharp /></span> 19
                         </Link>
                       </div>
                     </div>
@@ -108,26 +112,26 @@ const Footer = () => {
                 <h2 className="ftco-heading-2">Links</h2>
                 <ul className="list-unstyled">
                   <li>
-                    <Link href="#">
-                      <span className="ion-ios-arrow-round-forward mr-2"></span>
+                    <Link href="/">
+                      <span className="ion-ios-arrow-round-forward mr-2"><FaArrowRight /></span>
                       Home
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
-                      <span className="ion-ios-arrow-round-forward mr-2"></span>
+                    <Link href="/about">
+                      <span className="ion-ios-arrow-round-forward mr-2"><FaArrowRight /></span>
                       About
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
-                      <span className="ion-ios-arrow-round-forward mr-2"></span>
+                    <Link href="/services">
+                      <span className="ion-ios-arrow-round-forward mr-2"><FaArrowRight /></span>
                       Services
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
-                      <span className="ion-ios-arrow-round-forward mr-2"></span>
+                    <Link href="contact">
+                      <span className="ion-ios-arrow-round-forward mr-2"><FaArrowRight /></span>
                       Contact
                     </Link>
                   </li>
@@ -136,38 +140,21 @@ const Footer = () => {
             </div>
             <div className="col-md-6 col-lg-3">
               <div className="ftco-footer-widget mb-5">
-                <h2 className="ftco-heading-2">Subscribe Us!</h2>
-                <form action="#" className="subscribe-form">
-                  <div className="form-group">
-                    <input
-                      type="text"
-                      className="form-control mb-2 text-center"
-                      placeholder="Enter email address"
-                    />
-                    <input
-                      type="submit"
-                      value="Subscribe"
-                      className="form-control submit px-3"
-                    />
-                  </div>
-                </form>
-              </div>
-              <div className="ftco-footer-widget mb-5">
                 <h2 className="ftco-heading-2 mb-0">Connect With Us</h2>
                 <ul className="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
                   <li className="">
                     <Link href="#">
-                      <span className="icon-twitter"></span>
+                      <span className="icon-twitter"><FaTwitter /></span>
                     </Link>
                   </li>
                   <li className="">
                     <Link href="#">
-                      <span className="icon-facebook"></span>
+                      <span className="icon-facebook"><FaFacebookF /></span>
                     </Link>
                   </li>
                   <li className="">
                     <Link href="#">
-                      <span className="icon-instagram"></span>
+                      <span className="icon-instagram"><FaInstagram /></span>
                     </Link>
                   </li>
                 </ul>
