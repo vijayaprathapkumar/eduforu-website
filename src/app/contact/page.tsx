@@ -1,7 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
-
-import GoogleMapComponent from "@/core-component/google-map/Index";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
