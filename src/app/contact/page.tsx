@@ -1,7 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-'use client';
-
-import GoogleMapComponent from "@/core-component/google-map/Index";
+"use client";
+import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 
@@ -117,8 +116,7 @@ const Contact = () => {
 
       <section className="ftco-section ftco-no-pt ftco-no-pb contact-section">
         <div className="container">
-          <div className="row d-flex align-items-stretch no-gutters">
-            <GoogleMapComponent/>
+          <div className="contact-main align-items-stretch no-gutters">
             <div className="col-md-6 p-4 p-md-5 order-md-last bg-light">
               <form onSubmit={handleSubmit}>
                 <div className="form-group">
@@ -172,7 +170,13 @@ const Contact = () => {
               </form>
             </div>
             <div className="col-md-6 d-flex align-items-stretch">
-              <div id="map"></div>
+              <div id="map">
+                <Image
+                  src="/images/contact (2).png"
+                  alt="About Us"
+                  layout="fill"
+                />
+              </div>
             </div>
           </div>
         </div>

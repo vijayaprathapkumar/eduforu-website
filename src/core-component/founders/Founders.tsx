@@ -2,6 +2,7 @@
 
 import AnimatedItem from "@/ui-component/AnimatedItem";
 import React from "react";
+import { FaFacebookF, FaGooglePlusG, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Founders = () => {
   return (
@@ -45,22 +46,22 @@ const Founders = () => {
                     <ul className="ftco-social text-center">
                       <li className="">
                         <a href="#">
-                          <span className="icon-twitter"></span>
+                          <span className="icon-twitter"><FaTwitter /></span>
                         </a>
                       </li>
                       <li className="">
                         <a href="#">
-                          <span className="icon-facebook"></span>
+                          <span className="icon-facebook"><FaFacebookF /></span>
                         </a>
                       </li>
                       <li className="">
                         <a href="#">
-                          <span className="icon-google-plus"></span>
+                          <span className="icon-google-plus"><FaGooglePlusG /></span>
                         </a>
                       </li>
                       <li className="">
                         <a href="#">
-                          <span className="icon-instagram"></span>
+                          <span className="icon-instagram"><FaInstagram /></span>
                         </a>
                       </li>
                     </ul>
@@ -89,22 +90,22 @@ const Founders = () => {
                     <ul className="ftco-social text-center">
                       <li className="">
                         <a href="#">
-                          <span className="icon-twitter"></span>
+                          <span className="icon-twitter"><FaTwitter /></span>
                         </a>
                       </li>
                       <li className="">
                         <a href="#">
-                          <span className="icon-facebook"></span>
+                          <span className="icon-facebook"><FaFacebookF /></span>
                         </a>
                       </li>
                       <li className="">
                         <a href="#">
-                          <span className="icon-google-plus"></span>
+                          <span className="icon-google-plus"><FaGooglePlusG /></span>
                         </a>
                       </li>
                       <li className="">
                         <a href="#">
-                          <span className="icon-instagram"></span>
+                          <span className="icon-instagram"><FaInstagram /></span>
                         </a>
                       </li>
                     </ul>
@@ -133,22 +134,22 @@ const Founders = () => {
                     <ul className="ftco-social text-center">
                       <li className="">
                         <a href="#">
-                          <span className="icon-twitter"></span>
+                          <span className="icon-twitter"><FaTwitter /></span>
                         </a>
                       </li>
                       <li className="">
                         <a href="#">
-                          <span className="icon-facebook"></span>
+                          <span className="icon-facebook"><FaFacebookF /></span>
                         </a>
                       </li>
                       <li className="">
                         <a href="#">
-                          <span className="icon-google-plus"></span>
+                          <span className="icon-google-plus"><FaGooglePlusG /></span>
                         </a>
                       </li>
                       <li className="">
                         <a href="#">
-                          <span className="icon-instagram"></span>
+                          <span className="icon-instagram"><FaInstagram /></span>
                         </a>
                       </li>
                     </ul>

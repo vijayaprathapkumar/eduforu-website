@@ -22,7 +22,7 @@ export const SingaporeDetails = {
       link: "National University of Singapore (NUS)",
     },
     {
-      image: "/images/Ntu.webp",
+      image: "/images/Ntu.png",
       link: "Nanyang Technological University (NTU)",
     },
     { image: "/images/Smu.svg", link: "Singapore Management University (SMU)" },
@@ -41,7 +41,7 @@ export const SingaporeDetails = {
     { image: "/images/Yale.png", link: "Yale-NUS College" },
     { image: "/images/Insead.webp", link: "INSEAD (Singapore campus)" },
     { image: "/images/James.jpg", link: "James Cook University Singapore" },
-    { image: "/images/Spj.webp", link: "SP Jain School of Global Management" },
+    { image: "/images/Spj.jpg", link: "SP Jain School of Global Management" },
   ],
   coursesTitle: "Top Courses to Study in Singapore in 2025",
   topCourses: [
