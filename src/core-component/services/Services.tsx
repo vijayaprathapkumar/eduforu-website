@@ -7,7 +7,8 @@ const Services = () => {
       <section
         className="hero-wrap hero-wrap-2"
         style={{
-          backgroundImage: "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvc5NEu2ITR-nGnSARHEBQJ6eRoop-Zh50EA&s)",
+          backgroundImage:
+            "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvc5NEu2ITR-nGnSARHEBQJ6eRoop-Zh50EA&s)",
         }}
       >
         <div className="overlay"></div>
@@ -235,93 +236,69 @@ const Services = () => {
                 </p>
               </div>
             </div>
-          </div>
-
-          <div className="col-md-12 course ">
-            <div
-              className="img"
-              style={{
-                backgroundImage: "url(images/ielts.webp)",
-                backgroundSize: "contain",
-              }}
-            ></div>
-            <div className="text pt-4">
-              <h3>
-                <a href="#">Ielts</a>
-              </h3>
-              <p>
-                IELTS, or the International English Language Testing System, is
-                a standardized test designed to assess the English language
-                proficiency of individuals who intend to study or work in
-                English-speaking countries. It is widely recognized and accepted
-                by educational institutions, employers, and immigration
-                authorities in countries like the United Kingdom, Australia,
-                Canada, and New Zealand. <br />
-                Here’s a brief explanation of the key components of the IELTS
-                exam:
-              </p>
-              <ul>
-                <li className="mb-2">
-                  <strong>Listening (30 minutes):</strong> This section
-                  evaluates your ability to understand spoken English in various
-                  contexts. It includes four recorded monologues and
-                  conversations, and you’ll be required to answer a series of
-                  questions based on what you hear.
-                </li>
-                <li className="mb-2">
-                  <strong>Reading (60 minutes):</strong> The reading section
-                  assesses your reading comprehension skills. It consists of
-                  three passages with increasing levels of difficulty, and
-                  you’ll answer questions related to the content, main ideas,
-                  details, and inferences.
-                </li>
-                <li className="mb-2">
-                  <strong> Writing (60 minutes):</strong> The writing section
-                  consists of two tasks:
-                  <ul>
-                    <li className="mb-2">
-                      <strong> Task 1 (20 minutes):</strong> You may be asked to
-                      describe, summarize, or explain visual information (such
-                      as charts, graphs, or tables).
-                    </li>
-                    <li className="mb-2">
-                      <strong>Task 2 (40 minutes):</strong> You need to write an
-                      essay in response to a given argument or problem.
-                    </li>
-                  </ul>
-                </li>
-                <li className="mb-2">
-                  <strong>Speaking (11-14 minutes):</strong> The speaking
-                  section is a face-to-face interview with an examiner. It is
-                  divided into three parts:
-                  <ul>
-                    <li className="mb-2">
-                      <strong>Part 1 (Introduction and Interview):</strong>{" "}
-                      General questions about yourself, your home, your studies,
-                      and your interests.
-                    </li>
-                    <li className="mb-2">
-                      <strong>Part 2 (Long Turn): </strong>You are given a task
-                      card with a topic and some prompts. You have one minute to
-                      prepare and take notes, after which you must speak on the
-                      topic for 1-2 minutes.
-                    </li>
-                    <li className="mb-2">
-                      <strong>Part 3 (Discussion):</strong> A more in-depth
-                      discussion on the topic from Part 2, exploring related
-                      issues and ideas.
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-              <p>
-                IELTS scores range from 0 to 9, with half-band increments. Each
-                section (Listening, Reading, Writing, and Speaking) is scored
-                individually, and the overall band score is the average of these
-                scores. Different institutions and immigration authorities may
-                have specific score requirements, so it’s essential to check the
-                requirements of the organization or country you are applying to.
-              </p>
+            <div className="col-md-3 course ">
+              <div
+                className="img"
+                style={{
+                  backgroundImage: "url(images/ielts.jpg)",
+                }}
+              ></div>
+              <div className="text pt-4">
+                <h3>
+                  <a href="#">IELTS</a>
+                </h3>
+                <p>
+                  The IELTS (International English Language Testing System) is one of the most widely used English proficiency tests in the world. It assesses your ability to use English for communication in real-life scenarios and is accepted by educational institutions, employers, and immigration authorities in many countries, including the UK, USA, Canada, Australia, and New Zealand.
+                </p>
+              </div>
+            </div>
+            <div className="col-md-3 course ">
+              <div
+                className="img"
+                style={{
+                  backgroundImage: "url(images/Gre.png)",
+                }}
+              ></div>
+              <div className="text pt-4">
+                <h3>
+                  <a href="#">GRE</a>
+                </h3>
+                <p>
+                  The GRE (Graduate Record Examination) is a standardized test that is widely used for admission to graduate programs (master’s, PhD, or professional degrees) in universities around the world, particularly in the United States. Administered by ETS (Educational Testing Service), the GRE assesses your readiness for graduate-level work and measures your verbal reasoning, quantitative reasoning, critical thinking, and analytical writing skills.
+                </p>
+              </div>
+            </div>
+            <div className="col-md-3 course ">
+              <div
+                className="img"
+                style={{
+                  backgroundImage: "url(images/Toelf.webp)",
+                }}
+              ></div>
+              <div className="text pt-4">
+                <h3>
+                  <a href="#">TOEFL</a>
+                </h3>
+                <p>
+                  The TOEFL (Test of English as a Foreign Language) is a standardized test designed to measure the English language proficiency of non-native speakers. It is widely accepted by universities, colleges, and organizations in English-speaking countries like the USA, Canada, the UK, and Australia. Administered by ETS (Educational Testing Service), the TOEFL assesses your ability to use and understand English in academic settings.
+                </p>
+              </div>
+            </div>
+            <div className="col-md-3 course ">
+              <div
+                className="img"
+                style={{
+                  backgroundImage: "url(images/Gmat.png)",
+                }}
+              ></div>
+              <div className="text pt-4">
+                <h3>
+                  <a href="#">GMAT</a>
+                </h3>
+                <p>
+                  GMAT assesses your analytical, quantitative, verbal, and integrated reasoning skills, which are crucial for success in business school and beyond. It is widely accepted by more than 7,700 programs at over 2,400 institutions worldwide.
+                </p>
+              </div>
             </div>
           </div>
         </div>

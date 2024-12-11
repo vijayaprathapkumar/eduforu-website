@@ -172,9 +172,10 @@ const Contact = () => {
             <div className="col-md-6 d-flex align-items-stretch">
               <div id="map">
                 <Image
-                  src="/images/contact (2).png"
+                  src="/images/contact.jpg"
                   alt="About Us"
                   layout="fill"
+                  objectFit="cover"
                 />
               </div>
             </div>

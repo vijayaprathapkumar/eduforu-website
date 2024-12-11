@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { usePathname } from "next/navigation";
 import Icon from "@/ui-component/Icon";
 import { IoMenuSharp } from "react-icons/io5";
+import Image from "next/image";
 
 const Header = () => {
   const pathname = usePathname();
@@ -27,7 +28,7 @@ const Header = () => {
           <div className="row no-gutters d-flex align-items-center align-items-stretch">
             <div className="col-md-4 d-flex align-items-center py-4">
               <Link className="navbar-brand" href="/">
-                Eduforu
+                  <Image src="/images/logoEdu.png" alt="Edu-Logo" height={50} width={200}/>
               </Link>
             </div>
             <div className="col-lg-8 d-block">
