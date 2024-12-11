@@ -1,7 +1,6 @@
 "use client";
 import AnimatedItem from "@/ui-component/AnimatedItem";
 import React from "react";
-import { FaPlay } from "react-icons/fa";
 
 const Aboutus = () => {
   return (

@@ -1,4 +1,3 @@
-import Aboutus from '@/core-component/about-us/Aboutus'
 import Link from 'next/link'
 import React from 'react'
 
