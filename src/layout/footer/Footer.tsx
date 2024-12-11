@@ -1,8 +1,8 @@
 import Link from "next/link";
 import React from "react";
-import { FaTwitter, FaFacebookF, FaInstagram, FaPhone, FaUserAlt, FaArrowRight } from "react-icons/fa";
+import { FaTwitter, FaFacebookF, FaInstagram, FaPhone, FaArrowRight } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
-import { IoChatboxEllipsesSharp, IoLocation } from "react-icons/io5";
+import { IoLocation } from "react-icons/io5";
 import { SlCalender } from "react-icons/sl";
 
 const Footer = () => {
@@ -45,12 +45,12 @@ const Footer = () => {
                   <Link href='#'
                     className="blog-img mr-4"
                     style={{
-                      backgroundImage: "url(images/image_1.jpg)",
+                      backgroundImage: "url(images/Blog.jpg)",
                     }}
                   ></Link>
                   <div className="text">
                     <h3 className="heading">
-                      <Link href="#">
+                      <Link href="/blog">
                         Even the all-powerful Pointing has no control about
                       </Link>
                     </h3>
@@ -58,48 +58,6 @@ const Footer = () => {
                       <div>
                         <Link href="#">
                           <span className="icon-calendar"><SlCalender /></span> June 27, 2019
-                        </Link>
-                      </div>
-                      <div>
-                        <Link href="#">
-                          <span className="icon-person"><FaUserAlt /></span> Admin
-                        </Link>
-                      </div>
-                      <div>
-                        <Link href="#">
-                          <span className="icon-chat"><IoChatboxEllipsesSharp /></span> 19
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="block-21 mb-5 d-flex">
-                  <Link href='#'
-                    className="blog-img mr-4"
-                    style={{
-                      backgroundImage: "url(images/image_2.jpg)",
-                    }}
-                  ></Link>
-                  <div className="text">
-                    <h3 className="heading">
-                      <Link href="#">
-                        Even the all-powerful Pointing has no control about
-                      </Link>
-                    </h3>
-                    <div className="meta">
-                      <div>
-                        <Link href="#">
-                          <span className="icon-calendar"><SlCalender /></span> June 27, 2019
-                        </Link>
-                      </div>
-                      <div>
-                        <Link href="#">
-                          <span className="icon-person"><FaUserAlt /></span> Admin
-                        </Link>
-                      </div>
-                      <div>
-                        <Link href="#">
-                          <span className="icon-chat"><IoChatboxEllipsesSharp /></span> 19
                         </Link>
                       </div>
                     </div>

@@ -32,7 +32,7 @@ const Founders = () => {
                   <div
                     className="img align-self-stretch"
                     style={{
-                      backgroundImage: "url(images/ceo-john.webp)",
+                      backgroundImage: "url(images/ceo-john.jpg)",
                     }}
                   ></div>
                 </div>

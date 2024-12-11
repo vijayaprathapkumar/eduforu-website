@@ -37,7 +37,6 @@ const AboutUS = () => {
           </div>
         </div>
       </section>
-      <Aboutus />
     </div>
   )
 }

@@ -14,7 +14,7 @@ const Hompepage = () => {
       <Offer />
       <Aboutus />
       <Founders />
-      <Contactus />
+      {/* <Contactus /> */}
     </>
   )
 }

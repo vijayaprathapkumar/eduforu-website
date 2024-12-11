@@ -8,9 +8,6 @@ const Aboutus = () => {
     <section
       className="ftco-section ftco-counter img"
       id="section-counter"
-      style={{
-        backgroundImage: "url(images/bg_3.jpg)",
-      }}
       data-stellar-background-ratio="0.5"
     >
       <div className="container">
@@ -18,17 +15,9 @@ const Aboutus = () => {
           <div className="col-md-6 align-items-stretch d-flex">
             <div
               className="img img-video d-flex align-items-center"
-              style={{
-                backgroundImage: "url(images/about-2.jpg)",
-              }}
             >
-              <div className="video justify-content-center">
-                <a
-                  href="https://vimeo.com/45830194"
-                  className="icon-video popup-vimeo d-flex justify-content-center align-items-center"
-                >
-                  <span className="ion-ios-play"><FaPlay /></span>
-                </a>
+              <div className="">
+                <video src="/videos/edu.mp4" controls height={600} width={500}/>
               </div>
             </div>
           </div>
@@ -36,7 +25,7 @@ const Aboutus = () => {
             className="col-md-6 heading-section heading-section-white  pl-lg-5 pt-md-0 pt-5"
             animateEffect="fadeInUp"
           >
-            <h2 className="mb-4">
+            <h2 className="mb-4 mt-4">
               Welcome to EduForU – Your Gateway to Global Education Success!
             </h2>
             <p>
@@ -63,22 +52,9 @@ const Aboutus = () => {
                   </div>
                   <div className="text">
                     <strong className="number" data-number="18">
-                      0
+                      750
                     </strong>
-                    <span>Certified Teachers</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md d-flex justify-content-center counter-wrap ">
-                <div className="block-18">
-                  <div className="icon">
-                    <span className="flaticon-doctor"></span>
-                  </div>
-                  <div className="text">
-                    <strong className="number" data-number="401">
-                      0
-                    </strong>
-                    <span>Students</span>
+                    <span>Universities</span>
                   </div>
                 </div>
               </div>
@@ -89,9 +65,9 @@ const Aboutus = () => {
                   </div>
                   <div className="text">
                     <strong className="number" data-number="30">
-                      0
+                      2500
                     </strong>
-                    <span>Courses</span>
+                    <span>Courses Offered</span>
                   </div>
                 </div>
               </div>
@@ -102,9 +78,9 @@ const Aboutus = () => {
                   </div>
                   <div className="text">
                     <strong className="number" data-number="50">
-                      0
+                      5
                     </strong>
-                    <span>Awards Won</span>
+                    <span>Classes</span>
                   </div>
                 </div>
               </div>
