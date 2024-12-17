@@ -16,7 +16,7 @@ const Aboutus = () => {
               className="img img-video d-flex align-items-center"
             >
               <div className="">
-                <video src="/videos/edu.mp4" controls height={600} width={500}/>
+                <video src="/videos/edu.mp4" poster="/images/poster.jpeg" controls height={600}/>
               </div>
             </div>
           </div>
