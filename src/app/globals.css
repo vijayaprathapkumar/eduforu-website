@@ -13739,12 +13739,12 @@ textarea.form-control {
   width: 100%;
   display: block;
 }
-
+/* 
 @media (max-width: 767.98px) {
   .ftco-counter .img-video {
     height: 300px;
   }
-}
+} */
 
 .ftco-counter .icon span {
   font-size: 50px;

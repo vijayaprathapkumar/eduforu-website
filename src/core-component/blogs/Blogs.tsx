@@ -34,9 +34,9 @@ const Blogs = () => {
                                 <div className="text bg-white p-4">
                                     <h3 className="heading"><Link href="#">Skills To Develop Your Child Memory</Link></h3>
                                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                                    <div className="d-flex align-items-center mt-4">
+                                    {/* <div className="d-flex align-items-center mt-4">
                                         <p className="mb-0"><Link href="#" className="btn btn-primary">Read More <span className="ion-ios-arrow-round-forward"></span></Link></p>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
