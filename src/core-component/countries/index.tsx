@@ -8,6 +8,7 @@ import { Pagination, A11y } from "swiper/modules";
 import "swiper/css/pagination";
 import Link from "next/link";
 import { CountriesMap } from "./config/countries";
+import { Navigation } from 'swiper/modules';
 
 const Countries = () => {
   const renderCountries = () => {
@@ -46,8 +47,9 @@ const Countries = () => {
             </AnimatedItem>
             <AnimatedItem className="col-lg-12" animateEffect="fadeInUp">
               <Swiper
-                modules={[Pagination, A11y]}
+                modules={[Pagination, A11y,Navigation]}
                 spaceBetween={0}
+                navigation={true}
                 className="custome-countries-slider"
                 slidesPerView={4}
                 pagination={{ clickable: true }}

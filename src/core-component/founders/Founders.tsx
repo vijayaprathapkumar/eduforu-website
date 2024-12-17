@@ -2,7 +2,6 @@
 
 import AnimatedItem from "@/ui-component/AnimatedItem";
 import React from "react";
-import { FaFacebookF, FaGooglePlusG, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Founders = () => {
   return (
@@ -43,28 +42,6 @@ const Founders = () => {
                       Education is the passport to the future, and we’re here to
                       help you make the journey unforgettable.
                     </p>
-                    <ul className="ftco-social text-center">
-                      <li className="">
-                        <a href="#">
-                          <span className="icon-twitter"><FaTwitter /></span>
-                        </a>
-                      </li>
-                      <li className="">
-                        <a href="#">
-                          <span className="icon-facebook"><FaFacebookF /></span>
-                        </a>
-                      </li>
-                      <li className="">
-                        <a href="#">
-                          <span className="icon-google-plus"><FaGooglePlusG /></span>
-                        </a>
-                      </li>
-                      <li className="">
-                        <a href="#">
-                          <span className="icon-instagram"><FaInstagram /></span>
-                        </a>
-                      </li>
-                    </ul>
                   </div>
                 </div>
               </div>
@@ -87,28 +64,6 @@ const Founders = () => {
                       Together, we’ll build the foundation for your global
                       future.
                     </p>
-                    <ul className="ftco-social text-center">
-                      <li className="">
-                        <a href="#">
-                          <span className="icon-twitter"><FaTwitter /></span>
-                        </a>
-                      </li>
-                      <li className="">
-                        <a href="#">
-                          <span className="icon-facebook"><FaFacebookF /></span>
-                        </a>
-                      </li>
-                      <li className="">
-                        <a href="#">
-                          <span className="icon-google-plus"><FaGooglePlusG /></span>
-                        </a>
-                      </li>
-                      <li className="">
-                        <a href="#">
-                          <span className="icon-instagram"><FaInstagram /></span>
-                        </a>
-                      </li>
-                    </ul>
                   </div>
                 </div>
               </div>
@@ -131,28 +86,6 @@ const Founders = () => {
                       chance to thrive globally. Let’s embark on this journey
                       with confidence and excitement!
                     </p>
-                    <ul className="ftco-social text-center">
-                      <li className="">
-                        <a href="#">
-                          <span className="icon-twitter"><FaTwitter /></span>
-                        </a>
-                      </li>
-                      <li className="">
-                        <a href="#">
-                          <span className="icon-facebook"><FaFacebookF /></span>
-                        </a>
-                      </li>
-                      <li className="">
-                        <a href="#">
-                          <span className="icon-google-plus"><FaGooglePlusG /></span>
-                        </a>
-                      </li>
-                      <li className="">
-                        <a href="#">
-                          <span className="icon-instagram"><FaInstagram /></span>
-                        </a>
-                      </li>
-                    </ul>
                   </div>
                 </div>
               </div>
