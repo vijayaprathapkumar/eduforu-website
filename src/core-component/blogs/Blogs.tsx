@@ -26,9 +26,9 @@ const Blogs = () => {
                                     backgroundImage: "url(images/Blog.jpg)",
                                 }}>
                                     <div className="meta-date text-center p-2">
-                                        <span className="day">26</span>
-                                        <span className="mos">June</span>
-                                        <span className="yr">2019</span>
+                                        <span className="day">10</span>
+                                        <span className="mos">Jan</span>
+                                        <span className="yr">2024</span>
                                     </div>
                                 </Link>
                                 <div className="text bg-white p-4">
